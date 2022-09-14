@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name">George Jose P. Montano</string>
+    <string name="yellow_star">Yellow star</string>
+    <string name="bio">Student Number: 20190018801
+        \n Course: BS Information Technology
+        \n Age: Don\'t Ask!
+        \n\n Hi my name is George Jose Montano.
+        \n\n I love sleep
+        \n\n The kind of sleep where we dream of more sleep.
+        \n\n I like sleeping at home in my bed where it is comfortable.
+        \n\n Sometimes I sleep at work where sneak off to snooze a bit or two.
+        \n\n Sometimes I sleep at school while the teacher teaches ones and threes.
+        \n\n Once I slept while eating and woke up drooling.
+        \n (Scroll down for more…)
+        \n
+        \n\n I enjoy Photography but don\'t know how to use a camera.
+        \n\n I just copy and paste images from the internet.
+        \n\n
+        \n\n I like to draw people and animals.
+        \n\n But can only draw sticks and circles.
+        \n\n
+        \n\n I used to cook the best pancit canton on Earth.
+        \n\n But Lucky Me changed their recipe.
+        \n\n The end.
+
+    </string>
+    <string name="what_is_your_nickname">What is your Nickname?</string>
+    <string name="done">Done</string>
+</resources>

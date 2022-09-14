@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/padding"
+    android:paddingEnd="@dimen/padding">
+
+
+    <ImageView
+        android:id="@+id/profile_picture"
+        android:layout_width="230dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:contentDescription="profile picture"
+        android:paddingVertical="@dimen/padding"
+        app:srcCompat="@drawable/profile_picture" />
+
+    <TextView
+        android:id="@+id/name_text"
+        style="@style/NameStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/name"
+        android:text="@string/name"
+        tools:text="@string/name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/about_me"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:outlineAmbientShadowColor="#913535"
+            android:text="About Me" />
+
+        <Button
+            android:id="@+id/skills_me"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Skills" />
+
+        <Button
+            android:id="@+id/portfolio_me"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Portfolio" />
+    </LinearLayout>
+
+
+</LinearLayout>
